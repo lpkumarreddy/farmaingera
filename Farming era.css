@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    background-image: url("https://img.freepik.com/free-photo/detail-rice-plant-sunset-valencia-with-plantation-out-focus-rice-grains-plant-seed_181624-25838.jpg?w=1060&t=st=1665225564~exp=1665226164~hmac=e363caceaf0595282e8a2aafe7afd22168fc9abcd9f78591bfca85ea9194437f");
+    height: 100vh;
+    background-size: cover;
+}
+
+.h-heading {
+    font-size: 110px;
+    font-weight: bolder;
+    font-family: Playfair Display SC;
+}
+
+.farming-card {
+    text-align: center;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding: 2px;
+    margin: 10px;
+}
+
+.paragraph {
+    font-family: Playfair Display;
+    font-size: 25px;
+}
+
+.button {
+    height: 36px;
+    width: 130px;
+    background-color: green;
+    color: #ffffff;
+    border-radius: 20px;
+    border-width: 0px;
+    font-family: Roboto;
+    font-size: 15px;
+}
+
+.crops-details-bg-countainer {
+    background-image: url("https://png.pngtree.com/background/20211215/original/pngtree-aerial-photography-of-green-rice-seedlings-in-beautiful-rural-agricultural-rice-picture-image_1475854.jpg");
+    height: 130vh;
+    background-size: cover;
+}
+
+.crops-details-heading {
+    font-family: Playfair Display SC;
+    font-size: 34px;
+    font-weight: bold;
+    color: #0c2e13;
+    padding: 28px;
+}
+
+.crops-details-card-container {
+    background-color: #ffffff;
+    border-radius: 7px;
+    padding: 16px;
+    margin: 26px;
+}
+
+.crops-details-card-heading {
+    font-family: Bree Serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #13730d;
+}
+
+.crops-details-card-description {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: bold;
+    color: #4ca346;
+}
+
+.crops-details-card-description {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: bold;
+    color: #4ca346;
+}
+
+.crops-details-card-description {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: bold;
+    color: #4ca346;
+}
+
+.crops-details-card-description {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: bold;
+    color: #4ca346;
+}
+
+.crops-details-card-image {
+    width: 130px;
+    height: 100px;
+    border-radius: 8px;
+}
+
+.crops-details-card-description1 {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: bold;
+    color: #4ca346;
+}
+
+.crops-details-card-description2 {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: bold;
+    color: #4ca346;
+}
+
+.crops-details-card-description3 {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: bold;
+    color: #4ca346;
+}

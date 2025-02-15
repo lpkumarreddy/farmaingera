@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionfarming">
+        <div class="bg-container d-flex flex-column justify-content-start">
+            <div class="farming-card">
+                <h1 class="h-heading">@gronomy</h1>
+                <p class="paragraph">_Post Farming Era_</p>
+                <button class="button" onclick="display('sectionallcropsdetails')">let's start</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionallcropsdetails">
+        <div class="crops-details-bg-countainer">
+            <h1 class="crops-details-heading">All crops details...</h1>
+            <div class="crops-details-card-container d-flex flex-row" onclick="display('sectionCottonFullInformation')">
+                <div>
+                    <h1 class="crops-details-card-heading">Cotton</h1>
+                    <p class="crops-details-card-description">Cotton is one of the most important fiber and cash crop of India and plays
+                        a dominant role in the industrial and agricultural economy of the country.Cotton is a soft, fluffy staple fiber that grows in a boll, or protective case,
+                        around the seeds of the cotton plants of the genus Gossypium in the mallow family Malvaceae.
+                        The fiber is almost pure cellulose, and can contain minor percentages of waxes, fats, pectins, and water.
+                    </p>
+                </div>
+                <img src="https://static.fibre2fashion.com/newsresource/images/270/shutterstock-281842232_281960.jpg" class="crops-details-card-image" />
+            </div>
+            <div class="crops-details-card-container d-flex flex-row" onclick="display('sectionPaddyCropDetails')">
+                <div>
+                    <h1 class=" crops-details-card-heading">Paddy</h1>
+                    <p clas="crops-details-card-description">Rice is one of the most important food crop of India. Major share of rice is cultivated during Kharif season.
+                        A small share of rice is grown in rabi /summer season with assured irrigation.
+                        Indian rice production largely depends on monsoon rains and only 59 per cent rice area has assured irrigation.
+                    </p>
+                </div>
+                <img src="https://png.pngtree.com/background/20210716/original/pngtree-crop-green-rice-light-effect-wallpaper-picture-image_1334589.jpg" class="crops-details-card-image" />
+            </div>
+            <div class="crops-details-card-container d-flex flex-row" onclick="display('sectionGroundnutCropView')">
+                <div>
+                    <h1 class="crops-details-card-heading">Groundnut</h1>
+                    <p clas="crops-details-card-description">Groundnut is the major oil seed crop in India and it plays a major role in bridging the vegetable oil deficit in the country.
+                        Groundnuts in India are available throughout the year due to a two-crop cycle harvested in March and October.
+                    </p>
+                </div>
+                <img src="https://as1.ftcdn.net/v2/jpg/01/26/75/68/1000_F_126756841_AXXMBsRmz1uRaUH5xpY8eTJquUQnvpPw.jpg" class="crops-details-card-image" />
+            </div>
+            <div class="crops-details-card-container d-flex flex-row" onclick="display('sectionVegetablesCultivating')">
+                <div>
+                    <h1 class="crops-details-card-heading">Vegetables</h1>
+                    <p clas="crops-details-card-description">More than 70 types of vegetables are grown in our country,
+                        which generate high income and employment, for small farmers particularly in peri urban areas.
+                        Major vegetables grown in India are potato, onion, tomato, cauliflower, cabbage, bean, egg plant,
+                        cucumber and gherkhins, frozen peas, garlic and okra.
+                    </p>
+                </div>
+                <img src="https://thumbs.dreamstime.com/z/fresh-juicy-vegetables-eggplant-cucumber-beans-counter-indian-market-goa-54640125.jpg" class="crops-details-card-image" />
+            </div>
+            <button class="button" onclick="display('sectionfarming')">back</button>
+        </div>
+    </div>
+    <div id="sectionCottonFullInformation">
+        <div class="crops-details-bg-continer">
+            <h1 class="crops-details-heading"> Cotton Crop Details</h1>
+            <div class="crops-details-card-container">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://img.freepik.com/premium-photo/indian-farming-technique_75648-140.jpg?w=1060" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://img.freepik.com/premium-photo/row-growing-green-cotton-field-india_54391-2406.jpg?w=1060" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://img.freepik.com/premium-photo/cotton-plantation-beautiful-sunny-blue-sky-day_208861-6080.jpg?w=1060" class="d-block w-100" alt="...">
+
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <div class="crops-details-card-text-container">
+                        <h1 class="crops-details-card-heading">Cotton</h1>
+                        <p class="crops-details-card-description">Cotton is one of the most important fiber and cash crop of India and plays a
+                            dominant role in the industrial and agricultural economy of the country. It provides the
+                            basic raw material (cotton fibre) to cotton textile industry. Cotton in India provides direct
+                            livelihood to 6 million farmers and about 40 -50 million people are employed in cotton
+                            trade and its processing.
+                            In India, there are ten major cotton growing states which are divided into three
+                            ones, viz. north zone, central zone and south zone. North zone consists of Punjab,
+                            Haryana, and Rajasthan. Central zone includes Madhya Pradesh, Maharashtra and Gujarat.
+                            South zone comprises Andhra Pradesh, Telangana, Karnataka and Tamil Nadu. Besides
+                            these ten States, cotton cultivation has gained momentum in the Eastern State of Orissa.
+                            Cotton is also cultivated in small areas of non-traditional States such as Uttar Pradesh,
+                            West Bengal & Tripura.
+                        </p>
+                    </div>
+                </div>
+                <button class="button" onclick="display('sectionallcropsdetails')">back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionPaddyCropDetails">
+        <div class="crops-details-bg-continer">
+            <h1 class="crops-details-heading"> Paddy Crop Details</h1>
+            <div class="crops-details-card-container">
+                <div id="carouselPaddyCrop" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://as2.ftcdn.net/v2/jpg/02/46/02/43/1000_F_246024385_LL14jZOMyxmUqOMHmFgJoLwiZfZajp8v.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://img.freepik.com/premium-photo/beautiful-landscape-view-paddy-farmland-kathmandu-nepal_131480-576.jpg?w=1060" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://as2.ftcdn.net/v2/jpg/02/70/12/65/1000_F_270126543_Fpjy5Y3I0JHGOazU5UxKZxG3hMXv7ixC.jpg" class="d-block w-100" alt="...">
+
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselPaddyCrop" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselPaddyCrop" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <div class="crops-details-card-text-container">
+                        <h1 class="crops-details-card-heading">Paddy</h1>
+                        <p class="crops-details-card-description1">paddy, also called rice paddy, small, level,
+                            flooded field used to cultivate rice in southern and eastern Asia.
+                            Wet-rice cultivation is the most prevalent method of farming in the Far East,
+                            where it utilizes a small fraction of the total land yet feeds the majority of the rural population.
+                        </p>
+                    </div>
+                </div>
+                <button class="button" onclick="display('sectionallcropsdetails')">back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionGroundnutCropView">
+        <div class="crops-details-bg-continer">
+            <h1 class="crops-details-heading"> Groundnut Crop Details</h1>
+            <div class="crops-details-card-container">
+                <div id="carouselGroundCrop" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://as2.ftcdn.net/v2/jpg/01/62/52/95/1000_F_162529503_TMrcXIAPWttw5pdqZ8LYT3MqllFzaAXu.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://as2.ftcdn.net/v2/jpg/01/28/74/63/1000_F_128746362_L3Ir6umxGTpDfmAxsZD6TqtElxHNl33w.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://as1.ftcdn.net/v2/jpg/03/99/44/04/1000_F_399440499_ziiUMn8YZxiKFDIRNeqjPk4fVHN7M3xB.jpg" class="d-block w-100" alt="...">
+
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselGroundCrop" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselGroundCrop" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <div class="crops-details-card-text-container">
+                        <h1 class="crops-details-card-heading">Groundnut</h1>
+                        <p class="crops-details-card-description2">Groundnut,
+                            popularly known as the peanut is a leguminous crop cultivated for edible purposes.
+                            It is found exclusively in tropical and subtropical regions of the world.
+                            It is sometimes considered as a grain legume because the seed can produce oil and the crop is categorized as an oil crop.
+                        </p>
+                    </div>
+                </div>
+                <button class="button" onclick="display('sectionallcropsdetails')">back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionVegetablesCultivating">
+        <div class="crops-details-bg-continer">
+            <h1 class="crops-details-heading"> Vegetables Crop Details</h1>
+            <div class="crops-details-card-container">
+                <div id="carouselVegetablesCrop" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://as2.ftcdn.net/v2/jpg/02/18/69/15/1000_F_218691595_MCK8uYErPeXm1ZnGohW5CM3zUExxd6Cq.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://as2.ftcdn.net/v2/jpg/04/06/67/95/1000_F_406679514_7XLK7QQIaf9P6TImAh2zffSo3kMrKLxI.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://img.freepik.com/free-photo/portrait-asian-farmer-woman-holding-wooden-box-full-fresh-raw-vegetables-organic-farm-concept_1150-55791.jpg?" class="d-block w-100" alt="...">
+
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselVegetablesCrop" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselVegetablesCrop" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <div class="crops-details-card-text-container">
+                        <h1 class="crops-details-card-heading">Vegetables</h1>
+                        <p class="crops-details-card-description3">Vegetables are usually classified on the basis of the part of the plant that is used for food.
+                            The root vegetables include beets, carrots, radishes, sweet potatoes, and turnips.
+                            Stem vegetables include asparagus and kohlrabi.
+                            Among the edible tubers,
+                            or underground stems, are potatoes.
+                        </p>
+                    </div>
+                </div>
+                <button class="button" onclick="display('sectionallcropsdetails')">back</button>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
